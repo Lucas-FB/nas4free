@@ -1199,7 +1199,7 @@
 		<rescaninterval>3600</rescaninterval>
 		<scantype>0</scantype>
 		<dbdir></dbdir>
-		<admin_pw>nas4free</admin_pw>
+		<admin_pw>${{ secrets.PW_BITTORENT }}</admin_pw>
 	</daap>
 	<bittorrent>
 		<!--
